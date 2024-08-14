@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px){
+
+  .navbar-main{
+    padding-left: 40px;   
+    padding-right: 40px;
+ }
+  .hamburger-menu{
+    display: block;
+  }
+  .nav-btn-container{
+      display: none;
+    }
+}
