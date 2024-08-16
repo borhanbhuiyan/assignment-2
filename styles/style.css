@@ -6,7 +6,6 @@
 body{
   font-family: "Inter", sans-serif;
   max-width: 1440px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -22,19 +21,17 @@ body{
   border: none;
   border: 1px solid rgb(230, 83, 60);
   font-size: 1.2rem;
-  border-radius: 45px;
-  padding: 15px 40px;
+  border-radius: 2.6em;
+  padding: 1em 2.5em;
 }
 /* shared styles ends here */
 .header-bg{
   background: linear-gradient(0deg, rgb(17, 17, 17),rgb(119, 119, 119) 200%);
-  height: 720px;
 }
 /* nav section styles starts here */
 .navbar-main{
    max-width: 1200px;
    margin:0 auto;
-   border: 4px solid green;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -75,7 +72,6 @@ body{
 .banner{
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,7 +80,6 @@ body{
 .banner-content{
   width: 47%;
   height: 500px;
-  border: 2px solid blue;
 }
 .banner-heading{
   color: rgb(255, 255, 255);
@@ -103,23 +98,21 @@ body{
   margin-bottom: 25px;
 
 }
-.banner-btn{
   
-}
 .banner-btn-2{
   color: white;
   background: none;
   border: none;
   border:1px solid white;
   font-size: 1.2rem;
-  border-radius: 45px;
-  padding: 15px 40px;
+  border-radius: 2.6em;
+  padding: 1em 2.5em;
+  margin-left: 20px;
 }
 .banner-image{
   width: 30%;
   height: 580px;
   position: relative;
-  border: 2px solid blue;
 }
 .banner-image img{
   width: 100%;
@@ -141,13 +134,13 @@ body{
   display: flex;
   align-items: center;
  background-color: rgba(255, 255, 255, 0.092);
-  width: 200px;
+  width: 180px;
   height: 80px;
   padding: 5px 10px;
   border-radius: 8px;
   position: absolute;
   top: 75%;
-  left: -15%;
+  left: -20%;
 }
 .workout h2, .tutorial h2{
   font-size: 2.3rem;
@@ -168,3 +161,73 @@ body{
   margin-right: 20px;
 }
 /* banner section styles ends here */
+main{
+  max-width: 1440px;
+  background-color: rgba(0, 0, 0, 0.929);
+}
+/* habbit setion starts here */
+.habit{
+  max-width: 1200px;
+  margin:0 auto;
+  padding-top: 40px;
+}
+.habit-intro {
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+.habit-intro h2{
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.habit-intro p{
+  color: white;
+  font-weight: 400;
+  font-size: .9rem;
+  opacity: 0.5;
+}
+.habit-card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; */
+
+
+}
+.habit-card{
+  /* width: 100%; */
+
+
+}
+.habit-card-img img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.529);
+
+}
+.habit-card-content{
+  text-align: center;
+
+
+}
+.habit-card-content h3{
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}    
+.habit-card-content p{
+  color: white;
+  font-size: .8rem;
+  font-weight: 400;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+/* habbit setion ends here */
