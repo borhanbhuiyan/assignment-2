@@ -109,8 +109,33 @@
   .calc-title{
     padding-left: 5%;
   }
+  .team>div:nth-child(1){
+    display: none;
+  }
+  .team>div:nth-child(4){
+    display: none;
+  }
+  .team>div:nth-child(2){
+    order: 1;
+  }
+  .team>div:nth-child(3){
+    order: 3;
+    width: 120%;
+  }
+  .team>div:nth-child(5){
+    order: 2;
+    width: 120%;
+  }
+  .team>div:nth-child(6){
+    order: 4;
+  }
   .team{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
   } 
 }  
 

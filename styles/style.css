@@ -391,7 +391,7 @@ td{
   background: rgba(255, 255, 255, 0.1);
   padding: 3%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3 , 1fr);
   gap: 30px;
 }
 
@@ -404,6 +404,7 @@ td{
   object-fit: cover;
   border-radius: 18px;
 }
+
 .trainer-name{
   position: absolute;
   left: 8%;
