@@ -15,15 +15,7 @@ body{
   padding: 0;
 }
 /* shared styles starts here*/
-.btn-primary{
-  color: white;
-  background: rgb(230, 83, 60);
-  border: none;
-  border: 1px solid rgb(230, 83, 60);
-  font-size: 1.2rem;
-  border-radius: 2.6em;
-  padding: 1em 2.5em;
-}
+
 /* shared styles ends here */
 .header-bg{
   background: linear-gradient(0deg, rgb(17, 17, 17),rgb(119, 119, 119) 200%);
@@ -36,8 +28,6 @@ body{
    justify-content: space-between;
    align-items: center;
    padding-top: 60px;
-  
-   
 }
 .brand{
   font-size: 2rem;
@@ -75,11 +65,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .banner-content{
   width: 47%;
-  height: 500px;
 }
 .banner-heading{
   color: rgb(255, 255, 255);
@@ -89,16 +77,22 @@ body{
 }
 .shape{
   font-family: "Great Vibes", cursive;
-
 }
 .banner-description{
   font-size: 1rem;
   opacity: 0.4;
   color: white;
   margin-bottom: 25px;
-
 }
-  
+.banner-btn{
+  color: white;
+  background: rgb(230, 83, 60);
+  border: none;
+  border: 1px solid rgb(230, 83, 60);
+  font-size: 1.2rem;
+  border-radius: 2.6em;
+  padding: 1em 2.5em;
+}
 .banner-btn-2{
   color: white;
   background: none;
@@ -111,14 +105,12 @@ body{
 }
 .banner-image{
   width: 30%;
-  height: 580px;
   position: relative;
 }
 .banner-image img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 .workout {
   background-color:rgba(255, 255, 255, 0.097);
@@ -133,7 +125,7 @@ body{
 .tutorial{
   display: flex;
   align-items: center;
- background-color: rgba(255, 255, 255, 0.092);
+  background-color: rgba(255, 255, 255, 0.092);
   width: 180px;
   height: 80px;
   padding: 5px 10px;
@@ -145,13 +137,11 @@ body{
 .workout h2, .tutorial h2{
   font-size: 2.3rem;
   color: white;
-
 }
 .workout p,.tutorial p{
   font-size: .8rem;
   color: white;
   opacity: 0.6;
-
 }
 .play{
   background-color:rgb(230, 83,60);
@@ -165,16 +155,16 @@ main{
   max-width: 1440px;
   background-color: rgba(0, 0, 0, 0.929);
 }
-/* habbit setion starts here */
+/* habit section starts here */
 .habit{
   max-width: 1200px;
   margin:0 auto;
   padding-top: 40px;
+  margin-bottom: 50px;
 }
 .habit-intro {
   text-align: center;
-  margin-bottom: 40px;
-  
+  margin-bottom: 40px;  
 }
 .habit-intro h2{
   color: white;
@@ -188,32 +178,20 @@ main{
   opacity: 0.5;
 }
 .habit-card-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 80px;
-  /* display: flex;
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 80px; */
-
-
-}
-.habit-card{
-  /* width: 100%; */
-
-
+  gap: 80px;
 }
 .habit-card-img img{
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.529);
-
 }
 .habit-card-content{
   text-align: center;
-
-
 }
 .habit-card-content h3{
   color: white;
@@ -221,7 +199,6 @@ main{
   font-weight: 600;
   margin-top: 20px;
   margin-bottom: 10px;
-
 }    
 .habit-card-content p{
   color: white;
@@ -230,4 +207,217 @@ main{
   opacity: 0.4;
   margin-bottom: 40px;
 }
-/* habbit setion ends here */
+/* habit section ends here */
+/* run section starts here */
+.run{
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgb(34, 34, 34); 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding:4% ;
+}
+.run-content{
+  width: 45%;
+
+}
+.run-content h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+
+}
+.run-content p{
+  color: white;
+  opacity: 0.4;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+.run-btn , .calculator-btn{
+  width: 50%;
+  color: white;
+  background: rgb(230, 83, 60);
+  border: none;
+  border: 1px solid rgb(230, 83, 60);
+  font-size: 1.2rem;
+  border-radius: 2.6em;
+  padding: 1em 4em;
+}
+.run-img{
+  width: 40%;
+}
+.run-img img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+/* run section ends here */
+/* calculation section starts here */
+.bmi-calculator{
+  margin-top: 60px;
+}
+.calc-title{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.calc-title h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.calc-title p{
+  color: white;
+  opacity: 0.4;
+  font-size: 0.9rem;
+  margin-bottom: 80px;
+}
+.chart-container{
+  background: rgb(34, 34, 34);
+}
+.chart{
+  max-width: 1200px;
+  margin:  0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.table-container{
+  width: 40%;
+}
+.table-container h3{
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.calculator h3{
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.table{
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td{
+  padding: 18px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.278);
+}
+th{
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+td{
+  color: white;
+  font-size: .9rem;
+  opacity: 0.4;
+}
+.calculator{
+  width: 50%;
+}
+.calculator p{
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+.form-container{
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.input-field{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 18px ;
+}
+.input-field input{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  color: white;
+  font-weight: 550;  
+}
+.input-field select {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  color: white;
+  opacity: 0.35;
+}
+.full-width{
+  grid-column: span 2;
+}
+/* calculation section ends here */
+/* team section starts here */
+
+.team-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.team-title{
+  text-align: center;
+}
+.team-title h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.team-title p{
+  color: white;
+  font-size: .9rem;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+.team{
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.trainer{
+  position: relative;
+}
+.trainer-img img{
+  width: 100%;
+  min-height: 355px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.trainer-name{
+  position: absolute;
+  left: 8%;
+  top: 75%;
+}
+.trainer-name h3{
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+}
+.trainer-name p{
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+/* team section ends here */
