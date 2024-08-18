@@ -154,6 +154,7 @@ body{
 main{
   max-width: 1440px;
   background-color: rgba(0, 0, 0, 0.929);
+  padding-bottom: 40px;
 }
 /* habit section starts here */
 .habit{
@@ -422,3 +423,134 @@ td{
   opacity: 0.5;
 }
 /* team section ends here */
+/* blog section starts here */
+.blog-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgb(34, 34, 34); 
+  border-radius: 18px;
+  margin-top: 50px;
+  padding: 3%;
+}
+.blog-title{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.blog-title h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.blog-title p{
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.4; 
+}
+.blogs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.blog{
+  width: 48%;
+  margin-bottom: 30px;
+
+}
+.blog-img img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.para{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.para p{
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.4; 
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.blog h3{
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.blog-btn{
+  width: 50%;
+  color: white;
+  background: rgb(230, 83, 60);
+  border: none;
+  border: 1px solid rgb(230, 83, 60);
+  font-size: 1.2rem;
+  border-radius: 2.6em;
+  padding: 1em 3.5rem;
+}
+/* blog section ends here */
+/* footer section starts here */
+.footer-main{
+  max-width: 1440px;
+  background-color:rgba(0, 0, 0, 0.896);
+}
+.footer-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.fitness h2{
+  font-size: 4rem;
+  color: rgb(230, 83, 60);
+  font-weight: 900px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.fitness{
+  width: 40%;
+}
+.fitness p{
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.4;
+}
+.get-started{
+  margin-top: 70px;
+}
+.get-started h3{
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.get-started p{
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+hr, .right{
+  max-width: 1200px;
+  margin: 0 auto;
+  opacity: 0.4;
+}
+.right p{
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+/* footer section ends here */
